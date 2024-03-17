@@ -55,6 +55,10 @@ img {
   font-size: 4rem;
 }
 
+.msg-container {
+  margin: 5rem 0;
+}
+
 #msg {
   background-color: #afc97e;
   color: #ffdf64;
