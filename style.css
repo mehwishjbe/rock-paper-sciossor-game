@@ -19,9 +19,16 @@ h1 {
   gap: 3rem;
   margin-top: 5rem;
 }
+
 .choice {
   height: 165px;
   width: 165px;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  background-color: #877b66;
+  cursor: pointer;
 }
 
 img {
