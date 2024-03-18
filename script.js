@@ -13,7 +13,7 @@ const drawGame = () => {
   console.log("Game was draw");
 };
 
-const showWinner = () => {
+const showWinner = (userWin) => {
   if (userWin) {
     console.log("You Won!");
   } else {
@@ -38,7 +38,7 @@ const playGame = (userChoice) => {
     } else if (userChoice === "paper") {
       userWin = compChoice === "scissor" ? false : true;
     } else {
-      userWin = compChoice === "scissor" ? false : true;
+      userWin = compChoice === "rock" ? false : true;
     }
     showWinner(userWin);
   }
