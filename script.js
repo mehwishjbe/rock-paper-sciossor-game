@@ -3,6 +3,10 @@ let compScore = 0;
 
 const choices = document.querySelectorAll(".choices");
 
+const genComputerChoice = () => {
+  const options = ["rock", "paper", "scissor"];
+};
+
 const playGame = (userChoice) => {
   console.log("user choice = ", userChoice);
 };
