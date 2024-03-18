@@ -14,6 +14,11 @@ const playGame = (userChoice) => {
 
   const compChoice = genComputerChoice();
   console.log("Computer Choice =", compChoice);
+
+  if (userChoice === compChoice) {
+    //Draw Game
+    drawGame();
+  }
 };
 
 choices.forEach((choice) => {
