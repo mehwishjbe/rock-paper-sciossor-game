@@ -10,8 +10,8 @@ const genComputerChoice = () => {
 };
 
 const drawGame = () => {
-    console.log("Game was draw");
-}
+  console.log("Game was draw");
+};
 
 const playGame = (userChoice) => {
   console.log("User Choice = ", userChoice);
