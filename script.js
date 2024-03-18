@@ -9,6 +9,10 @@ const genComputerChoice = () => {
   return options[randomId];
 };
 
+const drawGame = () => {
+    console.log("Game was draw");
+}
+
 const playGame = (userChoice) => {
   console.log("User Choice = ", userChoice);
 
