@@ -40,6 +40,7 @@ const playGame = (userChoice) => {
     } else {
       userWin = compChoice === "scissor" ? false : true;
     }
+    showWinner(userWin);
   }
 };
 
