@@ -22,6 +22,12 @@ const playGame = (userChoice) => {
   if (userChoice === compChoice) {
     //Draw Game
     drawGame();
+  } //winning conditions
+  else{
+    let userWin = true;
+    if(userChoice === "rock"){
+        userWin = compChoice === "paper" ? false : true;
+    }
   }
 };
 
