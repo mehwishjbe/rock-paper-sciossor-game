@@ -17,14 +17,14 @@ const drawGame = () => {
   msg.style.color = "black";
 };
 
-const showWinner = (userWin) => {
+const showWinner = (userWin, userChoice, compChoice) => {
   if (userWin) {
     console.log("You Won!");
-    msg.innerText = "You Won!";
+    msg.innerText = `You win! your ${userChoice} beats ${compChoice}`;
     msg.style.backgroundColor = "green";
   } else {
     console.log("You Loss!");
-    msg.innerText = "You Loss!";
+    msg.innerText = `You lost! ${compChoice} beats your ${userChoice}`;
     msg.style.backgroundColor = "red";
   }
 };
@@ -48,7 +48,7 @@ const playGame = (userChoice) => {
     } else {
       userWin = compChoice === "rock" ? false : true;
     }
-    showWinner(userWin);
+    showWinner(userWin, userChoice, compChoice);
   }
 };
 
