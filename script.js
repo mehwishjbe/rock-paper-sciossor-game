@@ -22,6 +22,8 @@ const drawGame = () => {
 
 const showWinner = (userWin, userChoice, compChoice) => {
   if (userWin) {
+    userScore++;
+    userScoreBoard.innerText = userScore;
     console.log("You Won!");
     msg.innerText = `You win! your ${userChoice} beats ${compChoice}`;
     msg.style.backgroundColor = "green";
