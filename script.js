@@ -4,6 +4,9 @@ let compScore = 0;
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 
+const userScoreBoard = document.querySelector("#user-score");
+const compScoreBoard = document.querySelector("#comp-score");
+
 const genComputerChoice = () => {
   const options = ["rock", "paper", "scissor"];
   const randomId = Math.floor(Math.random() * 3);
