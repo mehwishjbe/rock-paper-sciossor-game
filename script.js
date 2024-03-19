@@ -12,15 +12,18 @@ const genComputerChoice = () => {
 
 const drawGame = () => {
   console.log("Game was draw");
+  msg.innerText = "Game was draw. Play again";
 };
 
 const showWinner = (userWin) => {
   if (userWin) {
     console.log("You Won!");
     msg.innerText = "You Won!";
+    msg.style.backgroundColor = "green";
   } else {
     console.log("You Loss!");
     msg.innerText = "You Loss!";
+    msg.style.backgroundColor = "red";
   }
 };
 
