@@ -13,6 +13,8 @@ const genComputerChoice = () => {
 const drawGame = () => {
   console.log("Game was draw");
   msg.innerText = "Game was draw. Play again";
+  msg.style.backgroundColor = "yellow";
+  msg.style.color = "black";
 };
 
 const showWinner = (userWin) => {
