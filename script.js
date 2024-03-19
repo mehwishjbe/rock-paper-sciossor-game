@@ -17,8 +17,10 @@ const drawGame = () => {
 const showWinner = (userWin) => {
   if (userWin) {
     console.log("You Won!");
+    msg.innerText = "You Won!";
   } else {
     console.log("You Loss!");
+    msg.innerText = "You Loss!";
   }
 };
 
