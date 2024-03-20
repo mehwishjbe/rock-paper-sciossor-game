@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
   text-align: center;
 }
 
@@ -10,6 +9,7 @@ h1 {
   color: #f0f5ff;
   height: 5rem;
   line-height: 5rem;
+  width: 100%;
 }
 
 .choices {
@@ -67,4 +67,19 @@ img {
   display: inline;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+@media (max-width: 500px) {
+  .choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+
+  .choices {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 8rem;
+  }
 }
