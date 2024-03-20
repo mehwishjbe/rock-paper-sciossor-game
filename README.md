@@ -8,6 +8,7 @@ Welcome to the Rock Paper Scissor Game! This classic game is brought to the digi
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Installation](#installation)
 - [How to Play](#how-to-play)
@@ -19,6 +20,10 @@ Welcome to the Rock Paper Scissor Game! This classic game is brought to the digi
 ## Introduction
 
 This Rock Paper Scissor Game is a simple, fun game built with HTML, CSS, and JavaScript. You can play it directly in your browser, with no need to install anything. Just open the game and start playing!
+
+## Live Demo
+
+You can try out the Weather App [here](https://mehwishjbe.github.io/rock-paper-sciossor-game/).
 
 ## Features
 
