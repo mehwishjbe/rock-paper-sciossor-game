@@ -83,3 +83,9 @@ img {
     margin-left: 8rem;
   }
 }
+
+@media (max-width: 360px) {
+  .choices {
+    margin-left: 6rem;
+  }
+}
