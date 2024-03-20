@@ -2,6 +2,9 @@
 
 Welcome to the Rock Paper Scissor Game! This classic game is brought to the digital world, allowing you to play against the computer anytime. Choose your move wisely!
 
+#### Web Design Preview
+![Weather API app](./images/preview_0.JPG)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
