@@ -6,8 +6,8 @@
 }
 
 h1 {
-  background-color: #877b66;
-  color: white;
+  background-color: #7facff;
+  color: #f0f5ff;
   height: 5rem;
   line-height: 5rem;
 }
@@ -30,7 +30,7 @@ h1 {
 }
 
 .choice:hover {
-  background-color: #afc97e;
+  background-color: rgb(238, 227, 227);
   cursor: pointer;
 }
 
@@ -48,6 +48,7 @@ img {
   font-size: 2rem;
   margin-top: 3rem;
   gap: 5rem;
+  color: #c38edc;
 }
 
 #user-score,
@@ -60,8 +61,8 @@ img {
 }
 
 #msg {
-  background-color: #afc97e;
-  color: #ffdf64;
+  background-color: #f083a2;
+  color: #f7c3d2;
   font-size: 2rem;
   display: inline;
   padding: 1rem;
